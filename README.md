@@ -36,6 +36,10 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
+
+
+## JS code
+### API코드를 이용
 apiKey = 'RGAPI-49c34c8c-8778-48c7-904d-71edb115cb45';
 let puuid = ''; 
 
