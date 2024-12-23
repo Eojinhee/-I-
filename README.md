@@ -8,7 +8,7 @@ import json
 
 app = Flask(__name__)
 
-# CORS 활성화 (모든 도메인에 대해 허용)
+### CORS 활성화 (모든 도메인에 대해 허용)
 CORS(app)
 
 @app.route('/champions')
