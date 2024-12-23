@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롤 챔피언 추천</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel ="stylesheet" href="lol.css">
+    <script src = "api.js"></script>
+</head>
+<body>
+    <h1>LOL API로 챔피언 분석</h1>
+
+    <label for="riotId">아이디:</label>
+    <input type="text" id="riotId" placeholder="ID를 입력하세요">
+    
+    <label for="tagLine">태그:</label>
+    <input type="text" id="tagLine" placeholder="태그를 입력하세요">
+    
+    <button onclick="getPuuid()">PUUID 가져오기</button>
+    <button onclick="getChampion()">챔피언 가져오기</button>
+
+    <h2>결과:</h2>
+    <p id="puuid">puuid</p>
+    <p id="championId1">챔피언 1</p>
+    <p id="championId2">챔피언 2</p>
+    <p id="championId3">챔피언 3</p>
+    <p id="result">공통점</p>
+    <p id="result2">결과</p>
+
+</body>
+</html>
