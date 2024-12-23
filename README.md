@@ -1,6 +1,6 @@
 # 롤 챔피언 추천 웹사이트 만들기
 ## python code
-# CORS 활성화 (모든 도메인에 대해 허용)
+
 from flask import Flask, jsonify,Response
 from flask_cors import CORS
 import pandas as pd
@@ -8,7 +8,7 @@ import json
 
 app = Flask(__name__)
 
-
+# CORS 활성화 (모든 도메인에 대해 허용)
 CORS(app)
 
 @app.route('/champions')
