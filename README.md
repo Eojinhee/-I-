@@ -175,3 +175,102 @@ function getChampion() {
         });
     })
 }
+
+## CSS code
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+header {
+    background-color: #1e1e1e;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+main {
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #121212;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+input {
+    text-align: center; 
+}
+
+input::placeholder {
+    color: #666666;
+}
+button {
+    width: 48%;
+    padding: 12px;
+    margin: 5px 1%;
+    border: none;
+    border-radius: 6px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+    background-color: #444444;
+}
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #f5f5f5;
+}
+p {
+    background-color: #1e1e1e;
+    padding: 12px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    margin: 8px 0;
+    font-size: 1.1em;
+    
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 480px) {
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
